@@ -1,0 +1,84 @@
+
+
+
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #F6EEE0;
+}
+main{
+  margin: 20px;
+}
+
+/* Text Details*/
+h1{
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+h2{
+  text-align: left;
+  font-family: Verdana, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h6{
+  position: center;
+  text-align: center;
+  color: #A45C40;
+}
+
+/* Navigation */
+.topnav ul{
+    list-style-type: none;
+    background-color: #E4B7A0;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    vertical-align: center;
+    /* come back to figure out how to align the nav links */
+}
+.topnav li{
+  float: left;
+
+}  
+.topnav a{
+  text-decoration: none;
+  color: #231f20;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+}
+.topnav a:hover{
+  background-color: #C38370;
+  color: #F6EEE0;
+}
+
+#home-img{
+  position: center;
+  width: 100%;
+}
+.music-imgs{
+  display: block;
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.news-imgs{
+  position: center;
+  width: 100%;
+}
